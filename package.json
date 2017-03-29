@@ -10,7 +10,7 @@
     "debug": "cross-env NODE_PATH='source' echo 'Nothing? `npm install -g iron-node`' && iron-node source/debug.js",
     "lint": "eslint source",
     "pretest": "npm run lint",
-    "test": "cross-env NODE_PATH='source' babel-node source/test/index.js",
+    "test": "cross-env NODE_PATH='source' babel-node source/test/index.js | tap-notify | tap-min",
     "watch": "watch \"clear && npm run test -s\" source",
     "update": "updtr"
   },
