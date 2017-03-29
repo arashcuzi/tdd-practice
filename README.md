@@ -1,3 +1,11 @@
+# tdd-practice
+
+Cloned from Eric Elliott's [react-pure-component-starter](https://github.com/ericelliott/react-pure-component-starter) because it was a great place to start with testing and react components.
+
+I am using this project to attempt coding interview challenges and other algorithmic problems with a TDD approach in JS.
+
+Feel free to clone this project or look through it at what I have been working on lately!
+
 # React Pure Component Starter
 [![Circle CI](https://circleci.com/gh/ericelliott/react-pure-component-starter.svg?style=svg)](https://circleci.com/gh/ericelliott/react-pure-component-starter)
 
@@ -23,12 +31,12 @@ npm install
 As of this writing:
 
 **Cloud9 (c9.io)**
-HOST='0.0.0.0' 
+HOST='0.0.0.0'
 PORT=8080
 
 **Nitrous.io**
 HOST='0.0.0.0'
-PORT=3000 
+PORT=3000
 
 The environment variables can be set locally in bash terminal using *export* (e.g., export PORT=8080).)
 
@@ -154,4 +162,3 @@ Learn JavaScript with Eric Elliott
 [![Join the chat at https://gitter.im/learn-javascript-courses/javascript-questions](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/learn-javascript-courses/javascript-questions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 An online course series for application developers. Ready to jump in? [Learn more](https://ericelliottjs.com/).
-# tdd-practice
