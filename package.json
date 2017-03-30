@@ -58,9 +58,11 @@
     "webpack-dev-middleware": "1.6.1"
   },
   "dependencies": {
+    "express": "4.15.2",
     "react": "15.0.1",
-    "redux": "3.5.2",
     "react-dom": "15.0.1",
-    "express": "4.15.2"
+    "redux": "3.5.2",
+    "tap-min": "^1.2.1",
+    "tap-notify": "^1.0.0"
   }
 }
